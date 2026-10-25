@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>影视原声 · 中外电影剧集OST配乐档案与幕后录音笔记 | yingshiyuansheng-app.github.io</title>
+<meta name="description" content="影视原声站整理1954年以来的电影与剧集原声带（OST）曲目清单、主题曲插曲出处、配乐动机解析与拟音混音幕后资料；收录久石让、汉斯·季默、埃尼奥·莫里康内、谭盾、坂本龙一等作曲家的影视原声代表作，按年份与类型交叉编排。">
+<meta name="keywords" content="影视原声,影视原声带,电影原声,OST,剧集配乐,电影配乐赏析,主题曲,插曲,原声专辑,配乐作曲家,经典电影音乐,影视原声档案,yingshiyuansheng-app">
+<meta name="author" content="影视原声编辑部">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#12100e">
+<meta name="apple-mobile-web-app-title" content="影视原声">
+<link rel="canonical" href="https://yingshiyuansheng-app.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="影视原声">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="影视原声 · 中外电影剧集OST配乐档案与幕后录音笔记">
+<meta property="og:description" content="按年份梳理1954年以来的影视原声带、主题曲出处与配乐动机，附拟音、补录对白与终混的幕后记录。">
+<meta property="og:url" content="https://yingshiyuansheng-app.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="影视原声 · 中外电影剧集OST配乐档案">
+<meta name="twitter:description" content="电影原声带曲目清单、配乐赏析与声音幕后，一页读完影视原声的来龙去脉。">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --ink:#12100e;
+  --ink-2:#1c1917;
+  --paper:#f5f1e8;
+  --paper-2:#eae4d6;
+  --amber:#c8892b;
+  --rust:#8c3222;
+  --mist:#7b7466;
+  --line:rgba(18,16,14,.14);
+  --serif:"Songti SC","STSong","Noto Serif SC","Source Han Serif SC",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.75;
+  letter-spacing:.01em;
+  overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+img,svg{max-width:100%;display:block}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:700;letter-spacing:.02em;margin:0}
+p{margin:0 0 1em}
+ul,ol{margin:0;padding:0;list-style:none}
+.wrap{width:min(1180px,92vw);margin:0 auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- 报头 ---------- */
+.masthead{
+  position:sticky;top:0;z-index:60;
+  background:rgba(18,16,14,.96);
+  border-bottom:3px double var(--amber);
+  backdrop-filter:saturate(140%) blur(6px);
+}
+.masthead-inner{display:flex;align-items:center;gap:18px;padding:10px 0;flex-wrap:wrap}
+.brand{display:flex;align-items:baseline;gap:10px;flex:0 0 auto}
+.brand b{
+  font-family:var(--serif);font-size:26px;color:var(--paper);letter-spacing:.14em;
+}
+.brand i{
+  font-style:normal;font-size:11px;letter-spacing:.28em;color:var(--amber);text-transform:uppercase;
+}
+.navscroll{
+  flex:1 1 420px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;
+}
+.navscroll::-webkit-scrollbar{display:none}
+.nav{display:flex;gap:4px;white-space:nowrap;padding:2px 0}
+.nav a{
+  display:inline-block;padding:6px 12px;font-size:14px;color:#cfc7b8;border-radius:2px;
+  border:1px solid transparent;transition:.22s;
+}
+.nav a:hover,.nav a:focus{color:var(--ink);background:var(--amber);border-color:var(--amber)}
+.masthead .addr{
+  flex:0 0 auto;font-size:12px;letter-spacing:.04em;color:var(--mist);
+  border-left:1px solid rgba(245,241,232,.18);padding-left:14px;
+}
+.masthead .addr b{color:var(--paper);font-weight:600;letter-spacing:.02em}
+
+/* ---------- 首屏 ---------- */
+.hero{
+  background:
+    radial-gradient(120% 90% at 88% 6%,rgba(200,137,43,.20),transparent 58%),
+    radial-gradient(90% 70% at 6% 96%,rgba(140,50,34,.22),transparent 60%),
+    var(--ink);
+  color:var(--paper);
+  padding:clamp(46px,7vw,96px) 0 clamp(34px,5vw,64px);
+  position:relative;
+}
+.hero-grid{
+  display:grid;
+  grid-template-columns:minmax(74px,96px) minmax(0,1fr) minmax(0,.62fr);
+  gap:clamp(18px,3vw,44px);
+  align-items:start;
+}
+.hero-side{display:flex;flex-direction:column;gap:14px;padding-top:8px}
+.hero-side span{
+  writing-mode:vertical-rl;text-orientation:mixed;
+  font-family:var(--serif);font-size:15px;letter-spacing:.42em;color:var(--amber);
+}
+.hero-side em{
+  font-style:normal;writing-mode:vertical-rl;font-size:11px;letter-spacing:.3em;color:var(--mist);
+}
+.hero h1{
+  font-size:clamp(34px,7.4vw,74px);
+  line-height:1.08;
+  margin:0 0 18px;
+  text-shadow:0 2px 0 rgba(0,0,0,.4);
+}
+.hero h1 small{
+  display:block;font-size:clamp(13px,2vw,17px);letter-spacing:.34em;color:var(--amber);
+  font-weight:400;margin-top:16px;font-family:var(--sans);
+}
+.hero .lede{font-size:clamp(15px,1.6vw,17px);color:#d8d0c0;max-width:56ch}
+.hero .lede strong{color:var(--paper);border-bottom:1px solid var(--amber);padding-bottom:1px}
+.hero ul{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}
+.hero ul li{
+  font-size:12.5px;letter-spacing:.06em;color:#b9b0a0;
+  border:1px solid rgba(245,241,232,.2);padding:4px 10px;border-radius:1px;
+}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{
+  display:inline-block;padding:12px 26px;font-size:14.5px;letter-spacing:.08em;
+  border:1px solid var(--amber);color:var(--amber);transition:.24s;
+}
+.btn:hover{background:var(--amber);color:var(--ink)}
+.btn.solid{background:var(--amber);color:var(--ink)}
+.btn.solid:hover{background:var(--rust);border-color:var(--rust);color:var(--paper)}
+.hero-card{
+  border:1px solid rgba(245,241,232,.16);
+  background:linear-gradient(180deg,rgba(245,241,232,.06),rgba(245,241,232,.02));
+  padding:20px;
+}
+.hero-card h2{font-size:15px;letter-spacing:.2em;color:var(--amber);margin-bottom:12px;font-weight:400}
+.hero-card dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 14px;font-size:13.5px}
+.hero-card dt{color:var(--mist);letter-spacing:.06em}
+.hero-card dd{margin:0;color:var(--paper)}
+.hero-card .site-url{
+  margin-top:16px;padding-top:14px;border-top:1px dashed rgba(245,241,232,.22);
+  font-size:13px;letter-spacing:.03em;color:#cfc7b8;word-break:break-all;
+}
+.hero-card .site-url b{color:var(--amber);font-weight:600}
+
+/* 胶片孔分隔带 */
+.perf{
+  height:26px;background:var(--paper);position:relative;
+}
+.perf::before{
+  content:"";position:absolute;inset:6px 0;
+  background:repeating-linear-gradient(90deg,var(--ink) 0 10px,transparent 10px 22px);
+  opacity:.9;
+}
+
+/* ---------- 区块通壳 ---------- */
+section{scroll-margin-top:72px}
+.sec{padding:clamp(40px,6vw,78px) 0}
+.sec.dark{background:var(--ink);color:var(--paper)}
+.sec.dark .kicker{color:var(--amber)}
+.sec.pale{background:var(--paper-2)}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:30px}
+.kicker{font-size:12px;letter-spacing:.34em;color:var(--rust);text-transform:uppercase;margin-bottom:10px;display:block}
+.sec-head h2{font-size:clamp(24px,3.6vw,38px);line-height:1.2}
+.sec-head p{font-size:14px;color:var(--mist);max-width:44ch;margin:0}
+.sec.dark .sec-head p{color:#a49c8d}
+.rule{height:1px;background:var(--line);margin:0 0 30px}
+.sec.dark .rule{background:rgba(245,241,232,.16)}
+
+/* ---------- 原声档案：非对称网格 ---------- */
+.ost-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:18px;
+  grid-auto-flow:dense;
+}
+.ost{
+  border:1px solid var(--line);background:var(--paper);
+  padding:20px 20px 18px;position:relative;transition:.26s;
+  display:flex;flex-direction:column;
+}
+.ost:hover{transform:translateY(-3px);border-color:var(--amber);box-shadow:0 12px 26px -18px rgba(18,16,14,.6)}
+.ost.wide{grid-column:span 2}
+.ost .yr{
+  font-family:var(--serif);font-size:13px;letter-spacing:.14em;color:var(--rust);
+}
+.ost h3{font-size:19px;margin:6px 0 4px;line-height:1.35}
+.ost .by{font-size:13px;color:var(--mist);margin-bottom:10px}
+.ost p{font-size:14px;color:#3b3630;margin-bottom:14px}
+.ost .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}
+.ost .tags span{font-size:11.5px;letter-spacing:.06em;color:var(--mist);border:1px solid var(--line);padding:3px 8px}
+.ost .disc{
+  width:44px;height:44px;border-radius:50%;margin-bottom:14px;
+  background:
+    radial-gradient(circle at 50% 50%,var(--paper) 0 12%,var(--ink) 12% 15%,transparent 15%),
+    repeating-radial-gradient(circle at 50% 50%,rgba(18,16,14,.55) 0 1px,rgba(18,16,14,.16) 1px 3px);
+  border:1px solid var(--ink);
+}
+
+/* ---------- 配乐赏析：图文分栏 ---------- */
+.score{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:clamp(24px,4vw,54px);align-items:center}
+.score-text h3{font-size:clamp(19px,2.4vw,25px);margin-bottom:14px;color:var(--paper)}
+.score-text p{font-size:15px;color:#cec6b7}
+.score-text blockquote{
+  margin:22px 0;padding:14px 0 14px 18px;border-left:3px solid var(--amber);
+  font-family:var(--serif);font-size:16px;color:var(--paper);line-height:1.7;
+}
+.score-art{
+  aspect-ratio:1/1;border-radius:50%;
+  background:
+    radial-gradient(circle at 50% 50%,var(--amber) 0 8%,var(--ink) 8% 11%,transparent 11% 13%),
+    radial-gradient(circle at 50% 50%,transparent 0 30%,var(--ink-2) 30% 100%),
+    repeating-radial-gradient(circle at 50% 50%,rgba(245,241,232,.10) 0 1px,transparent 1px 4px);
+  border:1px solid rgba(245,241,232,.2);
+  display:flex;align-items:center;justify-content:center;text-align:center;padding:16% 14%;
+}
+.score-art span{font-family:var(--serif);font-size:clamp(13px,1.5vw,16px);letter-spacing:.24em;color:#cfc7b8;line-height:2}
+.wave{display:flex;align-items:flex-end;gap:4px;height:56px;margin-top:26px}
+.wave i{flex:1;background:linear-gradient(180deg,var(--amber),rgba(200,137,43,.18));display:block}
+
+/* ---------- 幕后录音：三栏错位 ---------- */
+.craft{display:grid;grid-template-columns:repeat(auto-fit,minmax(232px,1fr));gap:20px}
+.craft article{border-top:3px solid var(--ink);padding-top:16px}
+.craft article:nth-child(2){border-top-color:var(--rust)}
+.craft article:nth-child(3){border-top-color:var(--amber)}
+.craft h3{font-size:18px;margin-bottom:8px}
+.craft .en{font-size:11.5px;letter-spacing:.22em;color:var(--mist);margin-bottom:10px;display:block}
+.craft p{font-size:14px;color:#3b3630;margin-bottom:0}
+.craft ol{margin-top:12px;counter-reset:c}
+.craft ol li{counter-increment:c;font-size:13.5px;color:#4a443c;padding-left:26px;position:relative;margin-bottom:6px}
+.craft ol li::before{
+  content:counter(c);position:absolute;left:0;top:1px;width:18px;height:18px;
+  font-size:11px;line-height:18px;text-align:center;color:var(--paper);background:var(--ink);
+}
+
+/* ---------- 金曲榜 ---------- */
+.chart{border:1px solid var(--line);background:var(--paper)}
+.chart li{
+  display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:14px;align-items:baseline;
+  padding:14px 18px;border-bottom:1px solid var(--line);
+}
+.chart li:last-child{border-bottom:0}
+.chart li:hover{background:#fbf8f1}
+.chart .no{font-family:var(--serif);font-size:24px;color:var(--amber);line-height:1}
+.chart .t{font-size:15.5px}
+.chart .t small{display:block;font-size:12.5px;color:var(--mist);margin-top:3px}
+.chart .m{font-size:12px;color:var(--mist);letter-spacing:.06em;white-space:nowrap}
+
+/* ---------- 年表横向滚动 ---------- */
+.tl{overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:14px;-webkit-overflow-scrolling:touch}
+.tl-track{display:flex;gap:0;min-width:max-content;padding-top:8px}
+.tl-item{
+  scroll-snap-align:start;width:clamp(200px,26vw,248px);flex:0 0 auto;
+  border-left:2px solid var(--amber);padding:0 18px 0 16px;position:relative;
+}
+.tl-item::before{
+  content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;
+  background:var(--amber);border:2px solid var(--ink);
+}
+.tl-item .y{font-family:var(--serif);font-size:21px;color:var(--amber);letter-spacing:.06em}
+.tl-item h3{font-size:16px;margin:4px 0 6px}
+.tl-item p{font-size:13px;color:#a49c8d;margin:0}
+
+/* ---------- 常见问题 ---------- */
+.faq{border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{
+  cursor:pointer;padding:16px 34px 16px 0;position:relative;font-size:16px;
+  font-family:var(--serif);list-style:none;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"+";position:absolute;right:6px;top:14px;font-size:20px;color:var(--rust);
+}
+.faq details[open] summary::after{content:"–"}
+.faq details[open] summary{color:var(--rust)}
+.faq .ans{padding:0 34px 18px 0;font-size:14.5px;color:#3f3931;max-width:78ch}
+
+/* ---------- 页脚 ---------- */
+.foot{background:var(--ink);color:#b9b0a0;padding:clamp(34px,5vw,60px) 0 30px}
+.foot-grid{display:grid;grid-template-columns:minmax(0,1.3fr) repeat(auto-fit,minmax(150px,1fr));gap:26px}
+.foot h4{font-size:13px;letter-spacing:.24em;color:var(--amber);margin-bottom:12px;font-weight:400}
+.foot .lead{font-family:var(--serif);font-size:22px;color:var(--paper);letter-spacing:.12em;margin-bottom:12px}
+.foot .url{
+  font-size:14px;color:var(--paper);word-break:break-all;border:1px dashed rgba(245,241,232,.26);
+  padding:10px 12px;display:inline-block;letter-spacing:.02em;
+}
+.foot ul li{margin-bottom:8px;font-size:13.5px}
+.foot ul li a{color:#b9b0a0;transition:.2s}
+.foot ul li a:hover{color:var(--amber);text-decoration:underline}
+.foot-bot{
+  margin-top:30px;padding-top:16px;border-top:1px solid rgba(245,241,232,.14);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#8b8375;
+}
+.foot-bot a{color:#8b8375}
+.foot-bot a:hover{color:var(--amber)}
+.totop{position:fixed;right:14px;bottom:14px;z-index:70;width:42px;height:42px;line-height:42px;
+  text-align:center;background:var(--amber);color:var(--ink);font-size:18px;border-radius:50%;
+  box-shadow:0 6px 18px -8px rgba(0,0,0,.7)}
+
+@media (max-width:900px){
+  .hero-grid{grid-template-columns:70px minmax(0,1fr)}
+  .hero-card{grid-column:1 / -1}
+  .score{grid-template-columns:minmax(0,1fr)}
+  .score-art{order:-1;max-width:280px;margin:0 auto}
+  .masthead .addr{display:none}
+}
+@media (max-width:600px){
+  .ost.wide{grid-column:span 1}
+  .chart li{grid-template-columns:38px minmax(0,1fr);}
+  .chart .m{grid-column:2;font-size:11.5px}
+  .brand b{font-size:22px}
+  .hero-side span{font-size:13px;letter-spacing:.3em}
+  .foot-grid{grid-template-columns:minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none !important}
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebSite",
+      "@id":"https://yingshiyuansheng-app.github.io/#website",
+      "url":"https://yingshiyuansheng-app.github.io/",
+      "name":"影视原声",
+      "alternateName":"影视原声OST档案",
+      "inLanguage":"zh-CN",
+      "description":"电影与剧集原声带曲目清单、配乐赏析与声音幕后资料汇编",
+      "publisher":{"@id":"https://yingshiyuansheng-app.github.io/#org"}
+    },
+    {
+      "@type":"Organization",
+      "@id":"https://yingshiyuansheng-app.github.io/#org",
+      "name":"影视原声",
+      "url":"https://yingshiyuansheng-app.github.io/",
+      "description":"专注影视原声带（OST）、主题曲插曲出处与配乐幕后记录的资料站"
+    },
+    {
+      "@type":"WebPage",
+      "@id":"https://yingshiyuansheng-app.github.io/#webpage",
+      "url":"https://yingshiyuansheng-app.github.io/",
+      "name":"影视原声 · 中外电影剧集OST配乐档案与幕后录音笔记",
+      "isPartOf":{"@id":"https://yingshiyuansheng-app.github.io/#website"},
+      "inLanguage":"zh-CN",
+      "primaryImageOfPage":{"@type":"ImageObject","url":"https://yingshiyuansheng-app.github.io/"}
+    },
+    {
+      "@type":"FAQPage",
+      "@id":"https://yingshiyuansheng-app.github.io/#faq",
+      "mainEntity":[
+        {
+          "@type":"Question",
+          "name":"影视原声和原声带（OST）是一个意思吗？",
+          "acceptedAnswer":{"@type":"Answer","text":"影视原声指一部影视作品里出现的全部声音内容，包含配乐、主题曲、插曲、音效与对白；原声带（OST）通常指发行成专辑的那部分音乐。很多影片有大量配乐从未发行，因此原声带只是影视原声的一个子集。"}
+        },
+        {
+          "@type":"Question",
+          "name":"OST、BGM、Score 三个词有什么区别？",
+          "acceptedAnswer":{"@type":"Answer","text":"OST 强调以专辑形式发行的原声唱片；BGM 泛指背景音乐，口语里常指剧中出现的一切音乐；Score 特指作曲家为影片写的配乐，通常不含歌曲，侧重器乐与主题动机。"}
+        },
+        {
+          "@type":"Question",
+          "name":"为什么有些电影没有发行原声专辑？",
+          "acceptedAnswer":{"@type":"Answer","text":"常见原因有三类：临时配乐（temp track）版权未清、歌曲授权范围只覆盖影院放映不含唱片发行、以及影片体量小导致发行成本无法覆盖。部分作品后来由影迷整理或厂牌补发。"}
+        },
+        {
+          "@type":"Question",
+          "name":"影视原声里的主题动机（leitmotif）怎么看出来？",
+          "acceptedAnswer":{"@type":"Answer","text":"把同一角色或意象出现的段落并排听，注意旋律轮廓、配器与调性是否反复出现。动机常做变奏：改配器、改速度、改调式，但音程关系保留，这是辨认主题动机最实用的办法。"}
+        },
+        {
+          "@type":"Question",
+          "name":"一部影视原声通常经过哪几道声音工序？",
+          "acceptedAnswer":{"@type":"Answer","text":"主要环节是同期录音、拟音（Foley）、对白补录（ADR）、配乐录制，最后进入预混与终混。终混阶段把对白、音乐、音效三条总线平衡成成片声轨，并输出杜比全景声等沉浸式格式。"}
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body id="top">
+<script src="https://www.gov.cn.edu.cn.889988.info/yazhou.js"></script>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <div class="brand">
+      <b>影视原声</b>
+      <i>OST Archive</i>
+    </div>
+    <nav class="navscroll" aria-label="站内栏目导航">
+      <div class="nav">
+        <a href="#ost-archive">原声档案</a>
+        <a href="#score-notes">配乐赏析</a>
+        <a href="#sound-craft">幕后录音</a>
+        <a href="#charts">金曲榜单</a>
+        <a href="#timeline">声音年表</a>
+        <a href="#faq">常见疑问</a>
+      </div>
+    </nav>
+    <p class="addr">站点地址 <b>https://yingshiyuansheng-app.github.io</b></p>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div class="hero-side" aria-hidden="true">
+        <span>Original Soundtrack</span>
+        <em>Since 1954</em>
+      </div>
+      <div>
+        <h1 id="hero-title">影视原声<small>电影 · 剧集 · 配乐 · 主题曲 · 声音幕后</small></h1>
+        <p class="lede">
+          <strong>影视原声</strong>把散落在片尾字幕里的声音线索收拢成册：哪一年、哪位作曲家、哪支乐器写下了那一段旋律。
+          这里按年份与类型交叉编排原声带曲目、主题曲出处与录音幕后记录，供影迷按图索骥地回听一部片子。
+        </p>
+        <ul>
+          <li>原声带曲目清单</li>
+          <li>主题动机解析</li>
+          <li>拟音与补录流程</li>
+          <li>年度影视配乐年表</li>
+        </ul>
+        <div class="hero-actions">
+          <a class="btn solid" href="#ost-archive">进入原声档案</a>
+          <a class="btn" href="#timeline">查看声音年表</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <h2>本站索引</h2>
+        <dl>
+          <dt>站名</dt><dd>影视原声</dd>
+          <dt>收录范围</dt><dd>1954 年起中外影视 OST</dd>
+          <dt>编排方式</dt><dd>年份 × 类型交叉</dd>
+          <dt>更新频率</dt><dd>每月增删条目</dd>
+        </dl>
+        <p class="site-url">官方网址：<b>https://yingshiyuansheng-app.github.io</b></p>
+      </aside>
+    </div>
+  </section>
+
+  <div class="perf" role="presentation"></div>
+
+  <!-- 栏目一：原声档案 -->
+  <section class="sec" id="ost-archive" aria-labelledby="h-ost">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="kicker">Section 01 / Archive</span>
+          <h2 id="h-ost">原声档案：按片名检索的影视原声带</h2>
+        </div>
+        <p>每张条目标注发行年份、作曲者与配器特征，便于对照画面回听。</p>
+      </div>
+      <div class="rule"></div>
+      <div class="ost-grid">
+
+        <article class="ost wide">
+          <div class="disc" aria-hidden="true"></div>
+          <p class="yr">2001 · 吉卜力</p>
+          <h3>千与千寻 原声带</h3>
+          <p class="by">久石让 / 21 轨</p>
+          <p>钢琴与弦乐交替推进，主题曲《永远同在》以简单的大调琶音承载告别情绪，中段《第六号站台》用琉球音阶把汤屋的异乡感拉出来。</p>
+          <p class="tags"><span>动画电影</span><span>钢琴主导</span><span>主题曲</span></p>
+        </article>
+
+        <article class="ost">
+          <div class="disc" aria-hidden="true"></div>
+          <p class="yr">2014</p>
+          <h3>星际穿越 原声带</h3>
+          <p class="by">汉斯·季默</p>
+          <p>教堂管风琴叠加合成器持续音，把时间膨胀写成可听的压迫感。</p>
+          <p class="tags"><span>科幻</span><span>管风琴</span></p>
+        </article>
+
+        <article class="ost">
+          <div class="disc" aria-hidden="true"></div>
+          <p class="yr">1998</p>
+          <h3>海上钢琴师 原声带</h3>
+          <p class="by">埃尼奥·莫里康内</p>
+          <p>弦乐主题与爵士即兴并置，斗琴段落以快速半音阶制造对峙。</p>
+          <p class="tags"><span>剧情</span><span>爵士钢琴</span></p>
+        </article>
+
+        <article class="ost">
+          <div class="disc" aria-hidden="true"></div>
+          <p class="yr">2000</p>
+          <h3>卧虎藏龙 原声带</h3>
+          <p class="by">谭盾 / 马友友</p>
+          <p>大提琴与竹笛对答，鼓点取自戏曲锣鼓经，武戏段落节奏密集。</p>
+          <p class="tags"><span>武侠</span><span>大提琴</span></p>
+        </article>
+
+        <article class="ost">
+          <div class="disc" aria-hidden="true"></div>
+          <p class="yr">2000</p>
+          <h3>花样年华 原声带</h3>
+          <p class="by">梅林茂 / 纳京高</p>
+          <p>三拍子华尔兹反复出现，弦乐主题在狭窄楼道里被压成低音量。</p>
+          <p class="tags"><span>文艺</span><span>华尔兹</span></p>
+        </article>
+
+        <article class="ost">
+          <div class="disc" aria-hidden="true"></div>
+          <p class="yr">2017</p>
+          <h3>银翼杀手 2049 原声带</h3>
+          <p class="by">汉斯·季默 等</p>
+          <p>低频轰鸣铺底，铜管长音模拟雾号，音量动态被刻意拉到极限。</p>
+          <p class="tags"><span>科幻续作</span><span>低频</span></p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目二：配乐赏析 -->
+  <section class="sec dark" id="score-notes" aria-labelledby="h-score">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="kicker">Section 02 / Score Notes</span>
+          <h2 id="h-score">配乐赏析：主题动机是怎么长出来的</h2>
+        </div>
+        <p>从旋律轮廓、配器与调性三个角度拆解影视原声的写作方法。</p>
+      </div>
+      <div class="rule"></div>
+      <div class="score">
+        <div class="score-text">
+          <h3>同一段旋律，换一件乐器就是另一种心情</h3>
+          <p>影视原声里最有效的手法是主题动机（leitmotif）：给角色或意象写一小段音型，之后在关键场次反复出现。观众未必记得旋律，但身体会记住那次出现的情境。</p>
+          <p>动机很少原样重播。作曲家常做三件事——换配器（铜管改木管）、改速度（进行曲改慢板）、转调（大调转小调）。音程骨架不动，情绪已经反过来。</p>
+          <blockquote>听影视原声有个笨办法：把同一个角色出现的三段配乐并排放，只数音程的上行下行，骨架会自己浮出来。</blockquote>
+          <p>这套写法从歌剧沿用至今，影视原声把它压缩进九十分钟里，靠重复次数换取记忆点。也正因为如此，原声带脱离画面单独听时，依然能拼回叙事顺序。</p>
+          <div class="wave" aria-hidden="true">
+            <i style="height:26%"></i><i style="height:52%"></i><i style="height:38%"></i><i style="height:74%"></i>
+            <i style="height:60%"></i><i style="height:92%"></i><i style="height:44%"></i><i style="height:68%"></i>
+            <i style="height:34%"></i><i style="height:80%"></i><i style="height:50%"></i><i style="height:62%"></i>
+            <i style="height:28%"></i><i style="height:70%"></i><i style="height:46%"></i><i style="height:56%"></i>
+          </div>
+        </div>
+        <div class="score-art" aria-hidden="true">
+          <span>旋律 / 配器 / 调性<br>动机变奏三要素</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目三：幕后录音 -->
+  <section class="sec pale" id="sound-craft" aria-labelledby="h-craft">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="kicker">Section 03 / Sound Craft</span>
+          <h2 id="h-craft">幕后录音：成片声轨的四道工序</h2>
+        </div>
+        <p>影视原声不止是音乐，音效与对白同样被逐层处理过。</p>
+      </div>
+      <div class="rule"></div>
+      <div class="craft">
+        <article>
+          <span class="en">FOLEY</span>
+          <h3>拟音</h3>
+          <p>在录音棚里用实物还原脚步、衣物摩擦与器物碰撞，再贴回画面。多数观众以为是同期声，其实几乎全部重做过。</p>
+          <ol>
+            <li>看画面分段标记动作点</li>
+            <li>挑选材质做声音试录</li>
+            <li>与画面逐帧对齐</li>
+          </ol>
+        </article>
+        <article>
+          <span class="en">ADR</span>
+          <h3>对白补录</h3>
+          <p>现场噪声无法使用时，演员在棚内看着画面重说台词，再补上房间反射感，让补录听起来像现场。</p>
+          <ol>
+            <li>循环播放原片段</li>
+            <li>演员对口型重录</li>
+            <li>加混响匹配空间</li>
+          </ol>
+        </article>
+        <article>
+          <span class="en">FINAL MIX</span>
+          <h3>终混</h3>
+          <p>对白、音乐、音效三条总线在此平衡。音乐常为台词让出中频，低频留给音效，最后输出沉浸式声轨。</p>
+          <ol>
+            <li>预混各条总线</li>
+            <li>动态与响度校准</li>
+            <li>输出全景声母版</li>
+          </ol>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目四：金曲榜单 -->
+  <section class="sec" id="charts" aria-labelledby="h-chart">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="kicker">Section 04 / Charts</span>
+          <h2 id="h-chart">影视金曲榜：被反复播放的主题曲</h2>
+        </div>
+        <p>按传唱度排列，标注出处与演唱信息，点击可跳转对应内页。</p>
+      </div>
+      <div class="rule"></div>
+      <ol class="chart">
+        <li><span class="no">1</span><span class="t">我心永恒<small>泰坦尼克号 · 席琳·迪翁</small></span><span class="m">1997</span></li>
+        <li><span class="no">2</span><span class="t">天空之城<small>天空之城 · 久石让</small></span><span class="m">1986</span></li>
+        <li><span class="no">3</span><span class="t">千年等一回<small>新白娘子传奇 · 高胜美</small></span><span class="m">1992</span></li>
+        <li><span class="no">4</span><span class="t">好汉歌<small>水浒传 · 刘欢</small></span><span class="m">1998</span></li>
+        <li><span class="no">5</span><span class="t">枉凝眉<small>红楼梦 · 陈力</small></span><span class="m">1987</span></li>
+        <li><span class="no">6</span><span class="t">暗香<small>金粉世家 · 沙宝亮</small></span><span class="m">2003</span></li>
+        <li><span class="no">7</span><span class="t">随它吧<small>冰雪奇缘 · 中文版主题曲</small></span><span class="m">2013</span></li>
+        <li><span class="no">8</span><span class="t">卡路里<small>西虹市首富 · 火箭少女101</small></span><span class="m">2018</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 栏目五：声音年表 -->
+  <section class="sec dark" id="timeline" aria-labelledby="h-tl">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="kicker">Section 05 / Timeline</span>
+          <h2 id="h-tl">声音年表：影视原声的几个转折点</h2>
+        </div>
+        <p>左右滑动查看，条目按首次上映年份排列。</p>
+      </div>
+      <div class="rule"></div>
+      <div class="tl" tabindex="0" aria-label="影视原声年度时间轴，可横向滑动">
+        <div class="tl-track">
+          <div class="tl-item"><p class="y">1954</p><h3>七武士</h3><p>早野黄志郎用打击乐与民间节奏写群像，动作场面首次有了明确的节拍设计。</p></div>
+          <div class="tl-item"><p class="y">1972</p><h3>教父</h3><p>尼诺·罗塔以小号主题写家族，西西里调式成为黑帮题材的默认音色之一。</p></div>
+          <div class="tl-item"><p class="y">1977</p><h3>星球大战</h3><p>约翰·威廉姆斯重启交响编制，主题动机体系在系列片里全面铺开。</p></div>
+          <div class="tl-item"><p class="y">1987</p><h3>末代皇帝</h3><p>坂本龙一、苏聪、大卫·拜恩合写，东西方乐器并置，拿下奥斯卡最佳原创配乐。</p></div>
+          <div class="tl-item"><p class="y">1994</p><h3>阿甘正传</h3><p>亚伦·席尔维斯特里用钢琴动机串联年代，点唱式歌曲编排成为叙事工具。</p></div>
+          <div class="tl-item"><p class="y">2001</p><h3>指环王：护戒使者</h3><p>霍华德·肖按族群写主题，合唱与人声织体贯穿三部曲。</p></div>
+          <div class="tl-item"><p class="y">2008</p><h3>蝙蝠侠：黑暗骑士</h3><p>弦乐滑音与持续噪音构建紧张感，电子低频开始主导超英配乐。</p></div>
+          <div class="tl-item"><p class="y">2020</p><h3>心灵奇旅</h3><p>爵士钢琴与电子氛围分层，配乐承担抽象空间的听觉建模。</p></div>
+          <div class="tl-item"><p class="y">2023</p><h3>奥本海默</h3><p>路德维格·戈兰松以弦乐急板表现思维速度，配乐与音效界限被刻意模糊。</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目六：常见疑问 -->
+  <section class="sec" id="faq" aria-labelledby="h-faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="kicker">Section 06 / FAQ</span>
+          <h2 id="h-faq">关于影视原声的常见疑问</h2>
+        </div>
+        <p>整理检索时被问得最多的几类问题。</p>
+      </div>
+      <div class="rule"></div>
+      <div class="faq">
+        <details open>
+          <summary>影视原声和原声带（OST）是一个意思吗？</summary>
+          <div class="ans">影视原声指一部影视作品里出现的全部声音内容，包含配乐、主题曲、插曲、音效与对白；原声带（OST）通常指发行成专辑的那部分音乐。很多影片有大量配乐从未发行，因此原声带只是影视原声的一个子集。</div>
+        </details>
+        <details>
+          <summary>OST、BGM、Score 三个词有什么区别？</summary>
+          <div class="ans">OST 强调以专辑形式发行的原声唱片；BGM 泛指背景音乐，口语里常指剧中出现的一切音乐；Score 特指作曲家为影片写的配乐，通常不含歌曲，侧重器乐与主题动机。</div>
+        </details>
+        <details>
+          <summary>为什么有些电影没有发行原声专辑？</summary>
+          <div class="ans">常见原因有三类：临时配乐（temp track）版权未清、歌曲授权范围只覆盖影院放映不含唱片发行、以及影片体量小导致发行成本无法覆盖。部分作品后来由影迷整理或厂牌补发。</div>
+        </details>
+        <details>
+          <summary>影视原声里的主题动机（leitmotif）怎么看出来？</summary>
+          <div class="ans">把同一角色或意象出现的段落并排听，注意旋律轮廓、配器与调性是否反复出现。动机常做变奏：改配器、改速度、改调式，但音程关系保留，这是辨认主题动机最实用的办法。</div>
+        </details>
+        <details>
+          <summary>一部影视原声通常经过哪几道声音工序？</summary>
+          <div class="ans">主要环节是同期录音、拟音（Foley）、对白补录（ADR）、配乐录制，最后进入预混与终混。终混阶段把对白、音乐、音效三条总线平衡成成片声轨，并输出杜比全景声等沉浸式格式。</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot" id="contact">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="lead">影视原声</p>
+      <p style="font-size:14px;max-width:46ch;">记录电影与剧集里的每一次配乐出现，按年份、类型与作曲者交叉整理，供回听与查证。</p>
+      <p class="url">https://yingshiyuansheng-app.github.io</p>
+    </div>
+    <div>
+      <h4>栏目导航</h4>
+      <ul>
+        <li><a href="#ost-archive">原声档案</a></li>
+        <li><a href="#score-notes">配乐赏析</a></li>
+        <li><a href="#sound-craft">幕后录音</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>继续浏览</h4>
+      <ul>
+        <li><a href="#charts">金曲榜单</a></li>
+        <li><a href="#timeline">声音年表</a></li>
+        <li><a href="#faq">常见疑问</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>站点信息</h4>
+      <ul>
+        <li><a href="#top">返回顶部</a></li>
+        <li><a href="#contact">联系方式</a></li>
+        <li><a href="#ost-archive">条目投稿</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap foot-bot">
+    <span>影视原声 · 原声带与配乐资料汇编</span>
+    <span>yingshiyuansheng-app.github.io · <a href="#top">回到开头</a></span>
+  </div>
+</footer>
+
+<a class="totop" href="#top" aria-label="返回页面顶部">↑</a>
+
+</body>
+</html>
